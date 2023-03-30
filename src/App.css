@@ -1,0 +1,227 @@
+.App {
+  /* text-align: center; */
+}
+.main {
+  display: flex;
+  background-color: rgb(245, 242, 242);
+}
+.admin {
+  padding: 10px;
+}
+.sidebar {
+  width: 15%;
+  background-color: #4e73df;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-btn,
+.comp-btn {
+  background-color: inherit;
+  border: none;
+  color: aliceblue;
+  padding-bottom: 10px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.bgc {
+  background-color: aliceblue;
+  padding: 10px 0px;
+  text-decoration: none;
+  color: black;
+}
+
+.line {
+  border-top: 1px solid whitesmoke;
+  padding: 10px 0px;
+}
+.nav {
+  background-color: white;
+  /* height: 30px; */
+  padding: 20px;
+}
+.mainmenu {
+  width: 85%;
+}
+.input {
+ background-color: aliceblue;
+ border-radius: 5px;
+ border: none;
+  margin: 0px 20px;
+}
+
+/* button page styling */
+
+.mar{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.btn-main{
+  display: flex;
+  gap: 2rem;
+}
+.first-box{
+   width: 550px;
+   background-color: white;
+}
+.second-box{
+  width:550px;
+  background-color: white;
+}
+.circle{
+  padding: 10px;
+  color: rgb(88, 88, 239);
+  background-color: white;
+}
+.circle-text{
+  padding: 10px;
+}
+.btn-text{
+  color: rgb(224, 143, 157);
+  padding: 10px;
+}
+.social-icons{
+     display: flex;
+     gap: 1rem;
+     margin-left: 10px;
+}
+.dis{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 1rem;
+  margin: 10px;
+}
+
+
+
+/* card -styling */
+.sub-card{
+  display: flex;
+  gap: 1rem;
+}
+.mini-card{
+    width: 250px;
+    background-color: white;
+   border-radius: 10px;
+   padding: 10px;
+}
+.monthly{
+  border-left: 4px solid blue ;
+}
+.annual{
+  border-left: 4px solid green ;
+}
+.task{
+  border-left: 4px solid skyblue ;
+}
+.request{
+  border-left: 4px solid orange ;
+}
+
+.inner-st{
+  display: flex;
+  justify-content: space-between;
+}
+/* card */
+
+.carding{
+  margin-top: 20px;
+  display: flex;
+  gap:1rem;
+  
+}
+.first-tittle ,.second-tittle{
+background-color: white;
+width: 500px;
+padding: 10px 15px;
+}
+.card-text{
+  background-color: white;
+  /* width: 500px; */
+  /* padding: 20px; */
+}
+
+/* page button */
+.page-btn{
+  margin-top: 100px;
+}
+.login-bg{
+  background-color: blue;
+  height: 100vh;
+}
+.login-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  text-align: center;
+}
+.login-bg{
+  background-color: blue;
+}
+.hello{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} 
+.login-card{
+  width: 500px;
+  background-color: white;
+  padding: 20px;
+}
+.inp-st{
+  display: flex;
+  gap: 2rem;
+  padding: 10px;
+}
+.inp-name{
+  border-radius: 25px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+.email{
+  margin-top: 10px;
+  border-radius: 25px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+.register-btn{
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+}
+.google-btn{
+  background-color: red;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+}
+
+/* error page */
+
+.error{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+}
+.errortext{
+  background-color: inherit;
+  border: none;
+  color: blue;
+}
