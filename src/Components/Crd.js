@@ -8,7 +8,7 @@ import { BsCalendar2Month } from 'react-icons/bs';
 function Crd() {
   return (
     <Dashboard>
-       <div className="mar">
+       <div className="mar aaa">
         <h3 className='card-tittle'>Cards</h3>
         <div className="main-card">
           <div className='sub-card'>

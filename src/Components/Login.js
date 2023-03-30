@@ -1,9 +1,12 @@
 import React from 'react'
-
+import { useHistory } from 'react-router-dom'
 
 function Login() {
+    const history=useHistory()
     return (
-        <div className="login-bg">
+        <div className="login-bg" >
+            <button className="non" onClick={()=>history.push('/')}>Back</button>
+        <div >
             <div className="hello">
                   <div className="login-card">
                        <h3 className="create-text">create an account</h3>
@@ -21,11 +24,9 @@ function Login() {
                        <button className="google-btn"> Register with google</button>
                        <p className="line"></p>
                        <button className="register-btn"> Register with Facebook</button>
-
-
-
+                       </div>
                   </div>
-            </div>
+            </div> 
         </div>
     )
 }

@@ -10,7 +10,7 @@ function Dashboard({ children }) {
             <div className="sidebar">
                 <h4 className="admin">ADMIN BOARD</h4>
                 <p className="line"></p>
-                <button onClick={() => history.push('/comp')} className="dashboard-btn">Dashboard</button>
+                <button onClick={() => history.push('/')} className="dashboard-btn">Dashboard</button>
                 <p className="line"></p>
                 <Dropdown>
                     <Dropdown.Toggle className="comp-btn">
@@ -31,6 +31,17 @@ function Dashboard({ children }) {
                         <div className="dropdown">
                             <Dropdown.Item className="bgc" onClick={() => history.push('/login')} >Register</Dropdown.Item>
                             <Dropdown.Item className="bgc" onClick={() => history.push('/nopage')} >404 Error page</Dropdown.Item>
+                        </div>
+                    </Dropdown.Menu>
+                </Dropdown>
+                <Dropdown>
+                    <Dropdown.Toggle className="page-btn">
+                        utilities
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu >
+                        <div className="dropdown">
+                            <Dropdown.Item className="bgc">Colors</Dropdown.Item>
+                            <Dropdown.Item className="bgc">Borders</Dropdown.Item>
                         </div>
                     </Dropdown.Menu>
                 </Dropdown>

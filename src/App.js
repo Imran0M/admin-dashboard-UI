@@ -1,7 +1,6 @@
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Components from './Components/Components';
-import Dashboard from './Components/Dashboard';
 import Btn from './Components/Btn';
 import Crd from './Components/Crd';
 import Login from './Components/Login';
@@ -11,10 +10,7 @@ import Err from './Components/Err';
       <div className="App">
         <Switch>
           <Route exact path='/'>
-            <Dashboard />
-          </Route>
-          <Route path='/comp'>
-            <Components />
+          <Components />
           </Route>
           <Route path='/button'>
             <Btn/>
